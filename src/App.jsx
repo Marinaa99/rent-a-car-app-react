@@ -29,48 +29,48 @@ const queryClient = new QueryClient(reactQueryConfig);
 const router = createBrowserRouter([
 
     {
-        path: "/",
+        path: "/login",
         element: <Login/>,
     },
 
     {
-        path: "/home",
-        element: <AuthWrapper><PageWrapper><Home/></PageWrapper></AuthWrapper>,
+        path: "/",
+        element: <AuthWrapper allowedRoles={[1]}><PageWrapper><Home/></PageWrapper></AuthWrapper>,
     },
 
     {
         path: "/clients",
-        element: <AuthWrapper><PageWrapper><Clients/></PageWrapper></AuthWrapper>,
+        element: <AuthWrapper allowedRoles={[1]}><PageWrapper><Clients/></PageWrapper></AuthWrapper>,
     },
 
     {
         path: "/vehicles",
-        element: <AuthWrapper ><PageWrapper><Vehicle/></PageWrapper></AuthWrapper>,
+        element: <AuthWrapper allowedRoles={[1]}><PageWrapper><Vehicle/></PageWrapper></AuthWrapper>,
     },
     {
         path: "/reservations",
-        element: <AuthWrapper ><PageWrapper><Reservation/></PageWrapper></AuthWrapper>,
+        element: <AuthWrapper allowedRoles={[1]}><PageWrapper><Reservation/></PageWrapper></AuthWrapper>,
     },
     {
         path: "/add/reservation",
-        element: <AuthWrapper ><PageWrapper><AddReservation/></PageWrapper></AuthWrapper>,
+        element: <AuthWrapper allowedRoles={[1]}><PageWrapper><AddReservation/></PageWrapper></AuthWrapper>,
     },
     {
         path: "/clients/reservations",
-        element: <AuthWrapper ><PageWrapper><ClientReservations /></PageWrapper></AuthWrapper>,
+        element: <AuthWrapper allowedRoles={[2]}><PageWrapper><ClientReservations /></PageWrapper></AuthWrapper>,
     },
 
     {
         path: "/previous/reservations",
-        element: <AuthWrapper ><PageWrapper><PreviousReservations /></PageWrapper></AuthWrapper>,
+        element: <AuthWrapper allowedRoles={[2]}><PageWrapper><PreviousReservations /></PageWrapper></AuthWrapper>,
     },
     {
         path: "/current/reservations",
-        element: <AuthWrapper ><PageWrapper><CurrentReservations/></PageWrapper></AuthWrapper>,
+        element: <AuthWrapper allowedRoles={[2]}><PageWrapper><CurrentReservations/></PageWrapper></AuthWrapper>,
     },
     {
         path: "/future/reservations",
-        element: <AuthWrapper ><PageWrapper><FutureReservations/></PageWrapper></AuthWrapper>,
+        element: <AuthWrapper allowedRoles={[1]}><PageWrapper><FutureReservations/></PageWrapper></AuthWrapper>,
     }
 ]);
 
