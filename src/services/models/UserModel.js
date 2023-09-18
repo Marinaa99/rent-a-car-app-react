@@ -8,7 +8,7 @@ class UserModel {
         this.phone_number = data?.phone_number;
         this.email = data?.email;
         this.note = data?.note;
-        this.role = data?.role_id;
+        this.role_id = data?.role_id;
 
     }
 }

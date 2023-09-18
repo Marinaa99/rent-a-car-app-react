@@ -22,6 +22,7 @@ import FutureReservations from "./pages/clientReservations/futureReservations/Fu
 import CurrentReservations from "./pages/clientReservations/currentReservations/CurrentReservations.jsx";
 import PreviousReservations from "./pages/clientReservations/previousReservations/PreviousReservations.jsx";
 import ClientReservations from "./pages/clientReservations/ClientReservations.jsx";
+import ErrorPage from "./pages/errorPage/ErrorPage.jsx";
 
 
 const queryClient = new QueryClient(reactQueryConfig);
@@ -35,6 +36,16 @@ const router = createBrowserRouter([
 
     {
         path: "/",
+        element: <AuthWrapper
+            redirectOnRole={{
+                1: "/home",
+                2: "/clients/reservations"
+            }}
+        />,
+    },
+
+    {
+        path: "/home",
         element: <AuthWrapper allowedRoles={[1]}><PageWrapper><Home/></PageWrapper></AuthWrapper>,
     },
 
@@ -70,8 +81,13 @@ const router = createBrowserRouter([
     },
     {
         path: "/future/reservations",
-        element: <AuthWrapper allowedRoles={[1]}><PageWrapper><FutureReservations/></PageWrapper></AuthWrapper>,
+        element: <AuthWrapper allowedRoles={[2]}><PageWrapper><FutureReservations/></PageWrapper></AuthWrapper>,
+    },
+    {
+        path: "/error",
+        element: <AuthWrapper><ErrorPage/></AuthWrapper>
     }
+
 ]);
 
 function App() {

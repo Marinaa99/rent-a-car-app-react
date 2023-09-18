@@ -45,10 +45,10 @@ const Sidebar = () => {
         }
     ]
     const filteredItems = items.filter(item => {
-        if (userData.role === 1) {
+        if (userData.role_id === 1) {
             return ['1', '2', '3'].includes(item.key);
         }
-        if (userData.role === 2) {
+        if (userData.role_id === 2) {
             return ['4', '5', '6','7'].includes(item.key);
         }
         return false;
