@@ -1,0 +1,59 @@
+.container {
+  display: block;
+  padding-bottom: 20px;
+
+  .datepicker {
+    padding: 10px;
+  }
+
+ button {
+   margin-top: 20px;
+   color: var(--white-color);
+   background: var(--primary-color);
+   padding: 20px;
+   display: flex;
+   align-items: center;
+ }
+  @media (min-width: 1024px) {
+    & {
+     display: flex;
+      align-items: center;
+    }
+
+    button {
+      margin-top: 0;
+      margin-left: auto;
+    }
+  }
+
+}
+
+.search {
+  width: 40%;
+  margin-bottom: 20px;
+
+  button {
+    background: var(--primary-color);
+    span {
+      color: var(--white-color);
+    };
+  }
+}
+
+.form-fields {
+  input {
+    margin-bottom: 20px;
+  }
+
+  button {
+    background: var(--primary-color);
+    color: var(--white-color);
+  }
+
+h3 {
+  font-family: 'Poppins-Bold', sans-serif;
+}
+  span {
+    font-family: 'Poppins-Bold', sans-serif;
+  }
+}

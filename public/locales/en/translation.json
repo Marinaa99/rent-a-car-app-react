@@ -1,0 +1,110 @@
+{
+  "menu": {
+    "username": "Username",
+    "addNewUser": "Add New User",
+    "addNewVehicle": "Add New Vehicle",
+    "addNewReservation": "Add New Reservation",
+    "language": "Language",
+    "logout": "Logout"
+  },
+
+  "clients": {
+    "addClient": "Add Client",
+    "clientFormTitle": "Client"
+  },
+  "vehicle": {
+    "addVehicle": "Add Vehicle",
+    "vehicleFormTitle": "Vehicle"
+  },
+  "reservation": {
+    "addReservation": "Add reservation",
+    "reservationFormTitle": "Reservation",
+    "reservationDetails": "Reservation Details"
+
+  },
+  "form":{
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "selectCountry": "Select Country",
+    "passportNumber": "Passport Number",
+    "phoneNumber": "Phone Number",
+    "email": "Email",
+    "note": "Note",
+    "update": "Update",
+    "add": "Add",
+    "plateNumber": "Plate Number",
+    "productionYear": "Production Year",
+    "vehicleType": "Vehicle Type",
+    "numberOfSeats": "Number of Seats",
+    "dailyRate": "Daily Rental Rate"
+  },
+  "message":{
+    "successfullyAdded": "Successfully added!",
+    "successfullyEdited": "Successfully edited!",
+    "errorOccurred": "There has been an error!",
+    "deleteSuccess": "Successfully deleted!",
+    "deleteError": "There has been an error!",
+    "deleteConfirmation": "Delete Confirmation"
+  },
+  "validation": {
+    "required": "Field required!",
+    "onlyLetters": "Can only contain letters!",
+    "minLength2": "Minimum length is 2!",
+    "maxLength50": "Maximum length is 50!",
+    "onlyNumbers": "Can only contain numbers!",
+    "minLength8": "Minimum length is 8!",
+    "maxLength15": "Maximum length is 15!",
+    "invalidPhone": "Phone number is not valid!",
+    "invalidEmail": "Must be a valid email!",
+    "minLength3": "Minimum length is 3!",
+    "maxLength500": "Maximum length is 500!",
+    "plateNumberRegex": "Plate number can only contain letters, numbers, spaces, and dashes.",
+    "plateNumberMin": "Plate number should be at least 5 characters long.",
+    "productionYearTypeError": "Production year should be a valid number.",
+    "productionYearMin": "Production year can't be before 1990.",
+    "productionYearMax": "Production year can't be after {year}.",
+    "typeMaxLength": "Type can't be longer than 50 characters.",
+    "numberOfSeatsTypeError": "Number of seats should be a valid number.",
+    "numberOfSeatsMin": "There should be at least 1 seat.",
+    "numberOfSeatsMax": "There can't be more than 10 seats.",
+    "dailyRateTypeError": "Daily rate should be a valid number.",
+    "dailyRateMin": "Daily rate can't be negative.",
+    "dailyRateMax": "Daily rate can't be more than 1000.",
+    "endDateAfterStartDate": "End date must be after the start date",
+    "pickupLocationRequired": "Pickup location is required",
+    "dropOffLocationRequired": "Drop-off location is required",
+    "priceRequired": "Price is required",
+    "priceTypeError": "Price must be a number",
+    "priceMin": "Price must be at least 1"
+  },
+  "table": {
+    "firstName": "Name",
+    "lastName": "Last Name",
+    "passportNumber": "Passport Number",
+    "phoneNumber": "Phone Number",
+    "email": "Email",
+    "note": "Note",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "plateNumber": "Plate Number",
+    "productionYear": "Production Year",
+    "vehicleType": "Vehicle Type",
+    "numberOfSeats": "Number of Seats",
+    "dailyRate": "Daily Rate",
+    "clientLastName": "Last Name",
+    "dateFrom": "Date From",
+    "dateTo": "Date To",
+    "pickupLocation": "Pickup Location",
+    "dropOffLocation": "Drop-off Location",
+    "totalPrice": "Total Price"
+  },
+  "searchPlaceholder": "Insert term for search",
+  "deleteConfirmation": "Delete confirmation",
+  "confirmationText": "Are you sure you want to delete this item?",
+  "confirmButton": "Confirm",
+  "cancelButton": "Cancel",
+  "customerDetails": "Customer Details",
+  "vehicleDetails": "Vehicle Details",
+  "copyright": "2023 Created by Marina Vojinovic"
+}

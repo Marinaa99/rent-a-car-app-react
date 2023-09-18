@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+
+  .card {
+    background: var(--second-color);
+    transition: all 0.7s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: var(--white-color);
+    transform: translateY(0);
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+
+
+  h3 {
+    color: black;
+    font-family: 'Poppins-Bold', sans-serif;
+  }
+
+  span {
+    font-family: 'Poppins-Medium', sans-serif;
+  }
+}
+

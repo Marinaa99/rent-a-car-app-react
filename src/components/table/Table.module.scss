@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+
+
+  .edit-btn {
+    margin-right: 2px;
+    color: var(--second-color);
+
+    &:hover {
+      color: var(--primary-color) !important;
+      border-color: var(--primary-color) !important;
+    }
+  }
+
+  .delete-btn {
+    margin-left: 2px;
+    color: var(--primary-color);
+
+    &:hover {
+      color: var(--second-color) !important;
+      border-color: var(--second-color) !important;
+    }
+  }
+}

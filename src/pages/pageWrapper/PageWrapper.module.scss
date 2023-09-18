@@ -1,0 +1,31 @@
+.container {
+  min-height: 100vh;
+
+  .sidebar {
+    background-color: var(--white-color);
+  }
+
+  .menu-icon {
+    display: flex;
+    justify-content: center;
+
+    .button {
+      font-size: 15px;
+      height: 55px;
+      color: var(--primary-color);
+
+      &:hover{
+        color: var(--second-color);
+        background-color: var(--white-color-color);
+      }
+    }
+  }
+
+  .layout {
+    width: 100%;
+    background: var(--orange-color);
+    @media (max-width: 768px) {
+      min-width: 100%;
+    }
+  }
+}

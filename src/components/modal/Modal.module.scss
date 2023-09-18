@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+  p {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    color: var(--second-color);
+    font-size: 25px;
+    padding: 20px;
+  }
+}
+
+.confirm {
+  background: var(--primary-color);
+  color: var(--white-color);
+  margin-right: 2px;
+  &:hover {
+    background: var(--second-color);
+  }
+}
+
+.delete {
+  margin-left: 2px;
+  background: var(--second-color);
+  color: var(--white-color);
+
+  &:hover {
+    background: var(--primary-color);
+  }
+}

@@ -1,0 +1,68 @@
+@import "./assets/styles/colors.scss";
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins-Regular', sans-serif;
+}
+
+th.ant-table-cell {
+  font-family: 'Poppins-Medium', sans-serif;
+  text-transform: uppercase;
+  text-align: center !important;
+  background: var(--second-color) !important;
+}
+td.ant-table-cell {
+  text-align: center;
+}
+
+@media (max-width: 1140px) {
+
+  table {
+    width: 100%;
+
+    thead.ant-table-thead {
+      visibility: hidden;
+      height: 0;
+      position: absolute;
+    }
+
+    tr.ant-table-row.ant-table-row-level-0 {
+      display: block;
+      margin-bottom: .625em;
+    }
+
+    td.ant-table-cell {
+      border-bottom: none;
+      display: block;
+      font-size: 13px;
+      text-align: left;
+
+      &:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      &:last-child {
+        border-bottom: 1px solid var(--second-color);
+
+      }
+    }
+  }
+}

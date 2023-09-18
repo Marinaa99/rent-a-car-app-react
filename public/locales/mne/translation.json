@@ -1,0 +1,119 @@
+{
+  "menu": {
+    "username": "Korisničko ime",
+    "addNewUser": "Dodaj novog korisnika",
+    "addNewVehicle": "Dodaj novo vozilo",
+    "addNewReservation": "Dodaj novu rezervaciju",
+    "language": "Jezik",
+    "logout": "Odjavi se"
+  },
+
+  "clients": {
+    "addClient": "Dodaj klijenta",
+    "clientFormTitle": "Klijent"
+  },
+  "vehicle": {
+    "addVehicle": "Dodaj vozilo",
+    "vehicleFormTitle": "Vozilo"
+  },
+  "reservation": {
+    "addReservation": "Dodaj rezervaciju",
+    "reservationFormTitle": "Rezervacija",
+    "reservationDetails": "Detalji rezervacije"
+
+  },
+  "form":{
+    "firstName": "Ime",
+    "lastName": "Prezime",
+    "selectCountry": "Izaberite državu",
+    "passportNumber": "Broj lične",
+    "phoneNumber": "Broj tel",
+    "email": "Email",
+    "note": "Napomena",
+    "update": "Ažuriraj",
+    "add": "Dodaj",
+    "plateNumber": "Broj Tablica",
+    "productionYear": "Godina Proizvodnje",
+    "vehicleType": "Tip Vozila",
+    "numberOfSeats": "Broj Sjedista",
+    "dailyRate": "Cijena po Danu",
+    "endDateAfterStartDate": "Datum završetka mora biti nakon datuma početka",
+    "pickupLocationRequired": "Lokacija preuzimanja je obavezna",
+    "dropOffLocationRequired": "Lokacija vraćanja je obavezna",
+    "priceRequired": "Cijena je obavezna",
+    "priceTypeError": "Cijena mora biti broj",
+    "priceMin": "Cijena mora biti najmanje 0"
+  },
+
+  "message": {
+    "successfullyAdded": "Uspješno dodato!",
+    "successfullyEdited": "Uspješno izmijenjeno!",
+    "errorOccurred": "Došlo je do greške!",
+    "deleteSuccess": "Uspešno obrisan!",
+    "deleteError": "Došlo je do greške!",
+    "deleteConfirmation": "Potvrda brisanja"
+  },
+
+  "validation": {
+    "required": "Polje je obavezno!",
+    "onlyLetters": "Može sadržavati samo slova!",
+    "minLength2": "Minimalna dužina je 2!",
+    "maxLength50": "Maksimalna dužina je 50!",
+    "onlyNumbers": "Može sadržavati samo brojeve!",
+    "minLength8": "Minimalna dužina je 8!",
+    "maxLength15": "Maksimalna dužina je 15!",
+    "invalidPhone": "Broj telefona nije važeći!",
+    "invalidEmail": "Mora biti važeća e-pošta!",
+    "minLength3": "Minimalna dužina je 3!",
+    "maxLength500": "Maksimalna dužina je 500!",
+    "plateNumberRegex": "Broj tablice može sadržavati samo slova, brojeve, razmake i crtice.",
+    "plateNumberMin": "Broj tablice treba imati najmanje 5 znakova.",
+    "productionYearTypeError": "Godina proizvodnje treba biti važeći broj.",
+    "productionYearMin": "Godina proizvodnje ne može biti prije 1990.",
+    "productionYearMax": "Godina proizvodnje ne može biti nakon {year}.",
+    "typeMaxLength": "Tip ne može biti duži od 50 znakova.",
+    "numberOfSeatsTypeError": "Broj sjedišta treba biti važeći broj.",
+    "numberOfSeatsMin": "Treba biti najmanje 1 sjedište.",
+    "numberOfSeatsMax": "Ne može biti više od 10 sjedišta.",
+    "dailyRateTypeError": "Dnevna stopa treba biti važeći broj.",
+    "dailyRateMin": "Dnevna stopa ne može biti negativna.",
+    "dailyRateMax": "Dnevna stopa ne može biti više od 1000.",
+    "endDateAfterStartDate": "Datum završetka mora biti posle datuma početka",
+    "pickupLocationRequired": "Mesto preuzimanja je obavezno",
+    "dropOffLocationRequired": "Mesto vraćanja je obavezno",
+    "priceRequired": "Cena je obavezna",
+    "priceTypeError": "Cena mora biti broj",
+    "priceMin": "Cijena mora biti najmanje 1"
+  },
+  "table": {
+    "firstName": "Ime",
+    "lastName": "Prezime",
+    "passportNumber": "Broj licne",
+    "phoneNumber": "Broj telefona",
+    "email": "Email",
+    "note": "Napomena",
+    "actions": "Akcije",
+    "edit": "Uredi",
+    "delete": "Izbriši",
+    "plateNumber": "Broj Tablica",
+    "productionYear": "Godina Proizvodnje",
+    "vehicleType": "Tip Vozila",
+    "numberOfSeats": "Broj sjedišta",
+    "dailyRate": "Dnevna cijena",
+    "clientLastName": "Prezime klijenta",
+    "dateFrom": "Datum od",
+    "dateTo": "Datum do",
+    "pickupLocation": "Lokacija preuzimanja",
+    "dropOffLocation": "Lokacija vraćanja",
+    "totalPrice": "Ukupna cijena"
+  },
+  "searchPlaceholder": "Unesite pojam za pretragu",
+  "deleteConfirmation": "Potvrdite brisanje",
+  "confirmationText": "Da li ste sigurni da želite izbrisati ovu stavku?",
+  "confirmButton": "Potvrdi",
+  "cancelButton": "Otkaži",
+  "customerDetails": "Informacije o kupcu",
+  "vehicleDetails": "Informacije o vozilu",
+  "copyright": "2023 Kreirala Marina Vojinović"
+
+}
